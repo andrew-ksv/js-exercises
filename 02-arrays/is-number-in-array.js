@@ -1,3 +1,4 @@
+// Check if a number is in the array
 function isNumberInArray(array, number) {
   for (let i = 0; i < array.length; i++) {
     if (array[i] === number) {
