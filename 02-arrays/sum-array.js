@@ -1,3 +1,4 @@
+// Find the sum of all elements
 function sumArray(array) {
   let sum = 0;
 
