@@ -1,3 +1,4 @@
+// Find the average
 function averageArray(array) {
   let sum = 0;
 
