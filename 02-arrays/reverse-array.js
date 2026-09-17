@@ -8,6 +8,11 @@ function reverseArray(array) {
 
   return reversed;
 }
-
 console.log(reverseArray([1, 2, 3, 4])); // [4, 3, 2, 1]
 console.log(reverseArray(["a", "b", "c"])); // ["c", "b", "a"]
+
+function reverseArray2(array) {
+  return array.reverse();
+}
+console.log(reverseArray2([1, 2, 3, 4])); // [4, 3, 2, 1]
+console.log(reverseArray2(["a", "b", "c"])); // ["c", "b", "a"]
